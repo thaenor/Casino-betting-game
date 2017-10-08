@@ -1,0 +1,10 @@
+c:\users\francisco\source\repos\Casino\Casino\bin\Debug\Casino.exe.config
+c:\users\francisco\source\repos\Casino\Casino\bin\Debug\Casino.exe
+c:\users\francisco\source\repos\Casino\Casino\bin\Debug\Casino.pdb
+c:\users\francisco\source\repos\Casino\Casino\obj\Debug\Casino.csprojResolveAssemblyReference.cache
+c:\users\francisco\source\repos\Casino\Casino\obj\Debug\Casino.Form1.resources
+c:\users\francisco\source\repos\Casino\Casino\obj\Debug\Casino.Properties.Resources.resources
+c:\users\francisco\source\repos\Casino\Casino\obj\Debug\Casino.csproj.GenerateResource.Cache
+c:\users\francisco\source\repos\Casino\Casino\obj\Debug\Casino.csproj.CoreCompileInputs.cache
+c:\users\francisco\source\repos\Casino\Casino\obj\Debug\Casino.exe
+c:\users\francisco\source\repos\Casino\Casino\obj\Debug\Casino.pdb
