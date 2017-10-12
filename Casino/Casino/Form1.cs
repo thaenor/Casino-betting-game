@@ -100,5 +100,36 @@ namespace Casino
                 ResultDisplay.Text = message;
             }
         }
+
+        private void DisplayFruit(PictureBox img, int number)
+        {
+            switch (number)
+            {
+                case 1:
+                    img.BackgroundImage = Properties.Resources.apple1;
+                    break;
+                case 2:
+                    img.BackgroundImage = Properties.Resources.orange2;
+                    break;
+                case 3:
+                    img.BackgroundImage = Properties.Resources.watermellon3;
+                    break;
+                case 4:
+                    img.BackgroundImage = Properties.Resources.carrot4;
+                    break;
+                case 5:
+                    img.BackgroundImage = Properties.Resources.pear5;
+                    break;
+                case 6:
+                    img.BackgroundImage = Properties.Resources.grapes6;
+                    break;
+                case 7:
+                    img.BackgroundImage = Properties.Resources.strawberry7;
+                    break;
+                case 8:
+                    img.BackgroundImage = Properties.Resources.banana8;
+                    break;
+            }
+        }
     }
 }
