@@ -29,7 +29,12 @@ namespace Casino
 
         private int getRandom()
         {
-            return random.Next(0, 8); //8 not included
+            return random.Next(1, 9); //9 not included
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            DisplayFruit(pictureBox1, random.Next(1, 9));
         }
 
         private decimal CheckResults()
@@ -67,6 +72,9 @@ namespace Casino
         private void PlayBtn_Click(object sender, EventArgs e)
         {
             Boolean canPlay = true;
+            timer1.Enabled = true;
+            timer2.Enabled = true;
+            timer3.Enabled = true;
 
             if (CurrentBet.Value <= 0)
             {
@@ -90,14 +98,20 @@ namespace Casino
                 n2 = getRandom();
                 n3 = getRandom();
                 //show the results
-                FirstNumber.Text = n1.ToString();
-                SecondNumber.Text = n2.ToString();
-                ThirdNumber.Text = n3.ToString();
+                //FirstNumber.Text = n1.ToString();
+                DisplayFruit(pictureBox1, n1);
+                //SecondNumber.Text = n2.ToString();
+                DisplayFruit(pictureBox2, n2);
+                //ThirdNumber.Text = n3.ToString();
+                DisplayFruit(pictureBox3, n3);
                 //calculate the results
                 bet = CheckResults();
                 money += bet;
                 CurrentMoney.Text = money.ToString();
                 ResultDisplay.Text = message;
+                timer1.Enabled = false;
+                timer2.Enabled = false;
+                timer3.Enabled = false;
             }
         }
 
@@ -107,27 +121,35 @@ namespace Casino
             {
                 case 1:
                     img.BackgroundImage = Properties.Resources.apple1;
+                    img.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
                     break;
                 case 2:
                     img.BackgroundImage = Properties.Resources.orange2;
+                    img.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
                     break;
                 case 3:
                     img.BackgroundImage = Properties.Resources.watermellon3;
+                    img.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
                     break;
                 case 4:
                     img.BackgroundImage = Properties.Resources.carrot4;
+                    img.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
                     break;
                 case 5:
                     img.BackgroundImage = Properties.Resources.pear5;
+                    img.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
                     break;
                 case 6:
                     img.BackgroundImage = Properties.Resources.grapes6;
+                    img.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
                     break;
                 case 7:
                     img.BackgroundImage = Properties.Resources.strawberry7;
+                    img.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
                     break;
                 case 8:
                     img.BackgroundImage = Properties.Resources.banana8;
+                    img.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
                     break;
             }
         }

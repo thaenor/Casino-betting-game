@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.FirstNumber = new System.Windows.Forms.Label();
             this.SecondNumber = new System.Windows.Forms.Label();
@@ -40,6 +41,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.CurrentBet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -66,6 +70,7 @@
             this.FirstNumber.Size = new System.Drawing.Size(100, 110);
             this.FirstNumber.TabIndex = 1;
             this.FirstNumber.Text = "0";
+            this.FirstNumber.Visible = false;
             // 
             // SecondNumber
             // 
@@ -77,6 +82,7 @@
             this.SecondNumber.Size = new System.Drawing.Size(100, 110);
             this.SecondNumber.TabIndex = 2;
             this.SecondNumber.Text = "0";
+            this.SecondNumber.Visible = false;
             this.SecondNumber.Click += new System.EventHandler(this.SecondNumber_Click);
             // 
             // ThirdNumber
@@ -89,6 +95,7 @@
             this.ThirdNumber.Size = new System.Drawing.Size(100, 110);
             this.ThirdNumber.TabIndex = 3;
             this.ThirdNumber.Text = "0";
+            this.ThirdNumber.Visible = false;
             // 
             // MoneyLbl
             // 
@@ -142,6 +149,11 @@
             this.CurrentBet.Name = "CurrentBet";
             this.CurrentBet.Size = new System.Drawing.Size(406, 62);
             this.CurrentBet.TabIndex = 8;
+            this.CurrentBet.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // pictureBox1
             // 
@@ -172,6 +184,10 @@
             this.pictureBox3.Size = new System.Drawing.Size(100, 110);
             this.pictureBox3.TabIndex = 11;
             this.pictureBox3.TabStop = false;
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Form1
             // 
@@ -215,6 +231,9 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Timer timer3;
     }
 }
 

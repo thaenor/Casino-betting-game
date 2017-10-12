@@ -8,3 +8,13 @@ c:\users\francisco\source\repos\Casino\Casino\obj\Debug\Casino.csproj.GenerateRe
 c:\users\francisco\source\repos\Casino\Casino\obj\Debug\Casino.csproj.CoreCompileInputs.cache
 c:\users\francisco\source\repos\Casino\Casino\obj\Debug\Casino.exe
 c:\users\francisco\source\repos\Casino\Casino\obj\Debug\Casino.pdb
+C:\Users\Francisco\source\repos\Casino-betting-game\Casino\Casino\bin\Debug\Casino.exe.config
+C:\Users\Francisco\source\repos\Casino-betting-game\Casino\Casino\bin\Debug\Casino.exe
+C:\Users\Francisco\source\repos\Casino-betting-game\Casino\Casino\bin\Debug\Casino.pdb
+C:\Users\Francisco\source\repos\Casino-betting-game\Casino\Casino\obj\Debug\Casino.csprojResolveAssemblyReference.cache
+C:\Users\Francisco\source\repos\Casino-betting-game\Casino\Casino\obj\Debug\Casino.Form1.resources
+C:\Users\Francisco\source\repos\Casino-betting-game\Casino\Casino\obj\Debug\Casino.Properties.Resources.resources
+C:\Users\Francisco\source\repos\Casino-betting-game\Casino\Casino\obj\Debug\Casino.csproj.GenerateResource.Cache
+C:\Users\Francisco\source\repos\Casino-betting-game\Casino\Casino\obj\Debug\Casino.csproj.CoreCompileInputs.cache
+C:\Users\Francisco\source\repos\Casino-betting-game\Casino\Casino\obj\Debug\Casino.exe
+C:\Users\Francisco\source\repos\Casino-betting-game\Casino\Casino\obj\Debug\Casino.pdb
